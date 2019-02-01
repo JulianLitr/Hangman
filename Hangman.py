@@ -4,7 +4,6 @@ word = "apple"
 guesses = 10
 print("Let's play Hangman. You have 10 Guesses to guess the word")
 while guesses > 0:
-    global guesses
     guesses = 10
     
     print("You have " + str(guesses) + " left!")
